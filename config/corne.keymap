@@ -48,9 +48,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  [  |  ]  | "|" | BSPC |
 //                    | GUI |THIRD| SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp RS(8) &kp RS(9) &kp RPAR &kp TILDE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp RA(7)  &kp RA(0) &kp BSLH &kp GRAVE
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp RA(8)  &kp RA(9) &kp PIPE &kp BSPC
+   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp RS(N8) &kp RS(N9) &kp RPAR &kp TILDE
+   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp RA(N7)  &kp RA(N0) &kp BSLH &kp GRAVE
+   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp RA(N8)  &kp RA(N9) &kp PIPE &kp BSPC
                     	     &kp LGUI &mo 3 &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
