@@ -29,14 +29,14 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |      |
-// | SHFT | Desk1 | Desk2 | Desk3 | Desk4 |  |   | LFT | DWN |  UP | RGT |     |      |
-// | CTRL | Pause | Vol- | Mute | Vol+ |     |   |  | HOME | END |     |     | BSPC |
+// |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |  DEL  |
+// | SHFT | Desk1 | Desk2 | Desk3 | Desk4 | Desk5 |   | LFT | DWN |  UP | RGT |     |      |
+// | CTRL | Pause | Vol- | Mute | Vol+ |     | Desk6 |  | HOME | END |     |     | BSPC |
 //                    | GUI |     | SPC |   | ENT |THIRD| ALT |
                         bindings = <
-   &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &trans
-   &kp LSHFT &kp LS(LG(N1)) &kp LS(LG(N2)) &kp LS(LG(N3)) &kp LS(LG(N4)) &trans   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LCTRL &kp K_PP &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP       &trans         &trans   &kp HOME   &kp END &trans    &trans &kp BSPC
+   &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp DEL
+   &kp LSHFT &kp LS(LG(N1)) &kp LS(LG(N2)) &kp LS(LG(N3)) &kp LS(LG(N4)) &kp LS(LG(N5))   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &kp LCTRL &kp K_PP &kp K_VOL_DN &kp K_MUTE &kp K_VOL_UP       &trans         &kp LS(LG(N6))   &kp HOME   &kp END &trans    &trans &kp BSPC
                           	        &kp LGUI     &trans       &kp SPACE      &kp RET  &mo 3 &kp RALT
                         >;
                 };
