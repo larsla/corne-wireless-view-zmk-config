@@ -44,12 +44,12 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  &  |  /  |  (  |  )  |  *  |  |
-// | CTRL |  =  |     |     |     |     |   |  +  |  =  |  {  |  }  |  \  |  `   |
+// | CTRL |  =  |  :  |     |     |     |   |  +  |  =  |  {  |  }  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  ?  |  +  |  [  |  ]  | "|" | BSPC |
 //                    | GUI |THIRD| SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp RS(N8) &kp RS(N9) &kp RPAR &kp TILDE
-   &kp LSHFT &kp RPAR &trans &trans   &trans   &trans      &kp MINUS &kp RA(MINUS) &kp RA(N7)  &kp RA(N0) &kp BSLH &kp GRAVE
+   &kp LSHFT &kp RPAR &kp LS(DOT) &kp LS(COMMA)   &kp RS(NUHS)   &trans      &kp MINUS &kp RA(MINUS) &kp RA(N7)  &kp RA(N0) &kp BSLH &kp GRAVE
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp LESS_THAN  &kp RA(N8)  &kp RA(N9) &kp PIPE &kp BSPC
                     	     &kp LGUI &mo 3 &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
