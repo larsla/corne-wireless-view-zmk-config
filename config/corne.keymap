@@ -48,8 +48,8 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  &  |  /  |  (  |  )  |  ?  | ~ |
-// | CTRL |  =  |  :  |  <  |  >  |     |   |  *  |  \  |  {  |  }  |  ^  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  | "|" |  [  |  ]  | | BSPC |
+// | CTRL |  =  |  @  |  <  |  >  |     |   |  *  |  \  |  {  |  }  |  ^  |  `   |
+// | SHFT |  :  |     |     |     |     |   |  _  | "|" |  [  |  ]  | | BSPC |
 //                    | GUI |THIRD| SPC |   | ENT |     | ALT |
                         bindings = <
 //   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT         &kp CARET &kp AMPS  &kp RS(N8) &kp RS(N9) &kp RPAR &kp TILDE
@@ -57,8 +57,8 @@
 //   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp LESS_THAN  &kp RA(N8)  &kp RA(N9) &kp PIPE &kp BSPC
 
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT    &kp AMPS        &kp FSLH &kp LPAR &kp RPAR &kp QUESTION &kp TILDE
-   &kp LSHFT &kp EQUAL &kp COLON &kp LT &kp GT &trans     &kp KP_MULTIPLY &kp BSLH &kp LBRC &kp RBRC &kp CARET    &kp GRAVE
-   &kp LCTRL &trans   &trans &trans   &trans   &trans       &kp UNDER       &kp PIPE &kp LBKT &kp RBKT &kp PLUS     &kp BSPC
+   &kp LSHFT &kp EQUAL &kp DQT &kp LT &kp GT &trans     &kp KP_MULTIPLY &kp BSLH &kp LBRC &kp RBRC &kp CARET    &kp GRAVE
+   &kp LCTRL &kp COLON &kp SQT &trans   &trans   &trans       &kp UNDER       &kp PIPE &kp LBKT &kp RBKT &kp PLUS     &kp BSPC
                     	     &kp LGUI &mo 3 &kp SPACE         &kp RET   &trans   &kp RALT
                         >;
                 };
